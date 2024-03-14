@@ -10,7 +10,7 @@ COPY pages ./pages
 COPY public ./public
 COPY styles ./styles
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["yarn", "dev"]
 
